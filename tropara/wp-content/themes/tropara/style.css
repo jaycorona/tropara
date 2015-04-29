@@ -1,0 +1,125 @@
+/*
+Theme Name: Tropara
+Theme URI: https://wordpress.org/themes/Tropara/
+Author: Trd JomarJay
+Author URI: 
+Description: .
+Version: 1.1
+License: GNU General Public License v2 or later
+License URI: 
+Text Domain: Tropara
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+/** {margin: 0; padding: 0; outline: 0;}*/
+
+
+/*body{
+	font-family: Helvetica, Arial, Verdana, sans-serif;
+	color: #fff;
+	font-size: 12px;
+	background:url(home/sand_bg.png) no-repeat;
+	background-size: cover;
+	
+}	*/
+
+body{
+	background:url(home/sand_bg.png) no-repeat;
+	background-size: 100% 100%;
+}
+.navbar-tropara{
+	background:url(headers/header_bg.png) no-repeat;
+	height: 110px;	
+}	
+
+/*logo*/
+.navbar-brand {
+  /*	padding: 31px 64px !important;*/
+	background:url(headers/tropara_logo.png) no-repeat;
+	width:387px !important;
+	height:105px !important;
+	margin-top: 20px !important; 
+	margin-left: 102px !important;
+
+}
+
+/*Villa Tropical Paradise*/
+#upper-brand{
+	margin: 0px 0px 0px -384px;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 11px !important;
+
+}
+
+/*arrow button*/
+/*a:hover[class="bntarrowhead"]{
+	text-decoration: none;
+}*/
+
+.bntarrowhead{
+	padding: 31px 141px !important;
+	background:url(headers/header_bt.png) no-repeat;
+	width:100% !important;
+	height:105px !important;
+	margin: 20px 109px 0 0;
+	float: left;
+	font-size: 18px;
+	line-height: 20px;
+}
+
+.fish{
+	background:url(headers/fish_icon.png) no-repeat;
+	width:190px !important;
+	height:105px !important;
+	margin-top: 25px;
+	margin-left: 29px;
+}	
+
+#headbtn{
+	width:100%;
+	height:90px;
+}
+
+footer{
+
+	background:url(footer/footer_bg.png);
+	background-size: 100% 100%;
+ 	padding: 50px 0;
+	height: 300px;	
+
+}
+.footer{
+	background:url(footer/corals_bg.png) no-repeat;
+	/*background-size: cover;*/
+	height: 123px;	/*giputlan*/
+	margin-top: 117px;/*partupong*/
+	margin-left: 314px
+}
+
+#copyright{
+	color: #fff;
+	text-align: center;
+ 	margin-left: -306px;
+ 	padding-top: 92px;
+ 	font-size: 9px
+
+}
+
+#vtp{
+	text-transform: uppercase;
+}
+#arr{
+	text-transform: capitalize;
+}
+
+.gridne{
+	  margin-left: 276px;
+}
+
+.footerlogo{
+	background:url(footer/footer_logo.png) no-repeat;
+	height: 139px;
+	width: 335px;
+}
